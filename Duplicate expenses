@@ -1,0 +1,4 @@
+SELECT * FROM rocketripexpenses_expense
+WHERE organization_id = 245 #Insert relevant org ID
+AND created_at LIKE "%2018-10-17%" #Insert relevant date
+AND expense_system = 'manual upload' #Optional. Helpful if the org uses Concur and spreadsheets.
